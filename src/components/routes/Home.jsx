@@ -37,7 +37,7 @@ export function Home() {
         <div className={`${style.inicar} ${style.quiz}`}>
             <Link to="Quiz" className={style.buttonquiz}>
               {" "}
-              <BsJoystick /> &nbsp; Teste Seu Conhecimento
+              <BsJoystick /> &nbsp; Teste o Seu Conhecimento
             </Link>
           
         </div>
