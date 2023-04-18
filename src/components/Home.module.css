@@ -1,0 +1,202 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;800&display=swap");
+
+
+/* Estilos para tela grande */
+.link {
+  font-size: 5rem;
+  margin-top: 15%;
+  cursor: auto;
+  font-family: "Inter", sans-serif;
+  text-align: center;
+}
+
+/* Estilos para tela grande continuam aqui */
+@keyframes colorCycle {
+  0%,
+  55% {
+    filter: brightness(0) invert(1);
+  }
+  11%,
+  33% {
+    filter: none;
+  }
+}
+
+span {
+  padding: 0 0.67rem;
+  filter: brightness(0) invert(1);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: colorCycle 8s ease-out infinite;
+  font-family: "Inter", sans-serif;
+  line-height: 95px;
+  letter-spacing: -0.4rem;
+}
+
+.start {
+  background-image: linear-gradient(90deg, #007cf0, #00dfd8);
+  font-size: 8vw;
+}
+
+.tutor {
+  background-image: linear-gradient(90deg, #7928ca, #ff0080);
+  animation-delay: 3.33s;
+  font-size: 8vw;
+}
+
+.personalizado {
+  background-image: linear-gradient(90deg, #ff4d4d, #f9cb28);
+  animation-delay: 6.66s;
+  font-size: 8vw;
+}
+
+.subtitle {
+  color: rgb(240, 240, 240);
+  font-size: 2.4vw;
+  padding: 0 0.67rem;
+  text-shadow: 2px 2px 3px rgb(121, 40, 202, 0.6);
+}
+
+.icon {
+  background-color: transparent;
+  border: 0.15vh solid #5e548e;
+  color: rgb(245, 245, 245, 0.8);
+  padding: 0.5vw 0.7vw;
+  font-family: "Inter";
+  font-weight: 500;
+  border-radius: 0.6rem;
+  font-size: 2vw;
+  cursor: pointer;
+  margin-bottom: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 1px 0 #fff, 0 0 3px 0 #5e548e, 0 0 5px 0 #7928ca;
+}
+
+.icon:hover {
+  transform: scale(1.2);
+  box-shadow: 0 0 3px 0 #fff, 0 0 5px 0 #5e548e, 0 0 10px 0 #7928ca;
+}
+
+.journey  {
+  background-image: linear-gradient(90deg, #007cf0, #00dfd8);
+  color: black;
+  padding: 1vw 3vw;
+  font-family: "Inter";
+  font-weight: 500;
+  border-radius: 0.3rem;
+  font-size: 1vw;
+  cursor: pointer;
+  border: none;
+}
+
+.journey:hover {
+  background: black;
+  color: white;
+  box-shadow: 0 0 5px 0 #fff, 0 0 10px 0 #00dfd8, 0 0 20px 0 #007cf0;
+}
+
+.quiz {
+  margin-top: 3vh;
+  cursor: auto;
+  font-family: "Inter", sans-serif;
+  text-align: center;
+}
+.buttonquiz {
+  background-image: linear-gradient(90deg, #ff4d4d, #f9cb28);
+  color: black;
+  padding: 1vw 2.5vw;
+  font-family: "Inter";
+  font-weight: 500;
+  border-radius: 0.3rem;
+  font-size: 1vw;
+  cursor: pointer;
+  border: none;
+}
+
+.buttonquiz:hover {
+  background: black;
+  color: white;
+  background: black;
+  color: white;
+  box-shadow: 0 0 5px 0 #fff, 0 0 10px 0 #f9cb28, 0 0 20px 0 #ff4d4d;
+}
+
+@media (max-width: 600px) {
+  /* alterações para telas menores que 600px */
+
+  .start,
+  .tutor,
+  .personalizado {
+    font-size: 12vw;
+    letter-spacing: 0.05vw;
+  }
+
+  .subtitle {
+    font-size: 5vw;
+  }
+
+  .journey {
+    background-image: linear-gradient(90deg, #007cf0, #00dfd8);
+    color: black;
+    padding: 1vw 4.7vw;
+    font-family: "Inter";
+    font-weight: 500;
+    border-radius: 0.3rem;
+    font-size: 3.5vw;
+    cursor: pointer;
+    border: none;
+  }
+
+  .journey:hover {
+    background: black;
+    color: white;
+    box-shadow: 0 0 5px 0 #fff, 0 0 10px 0 #00dfd8, 0 0 20px 0 #007cf0;
+  }
+
+  .quiz {
+    margin-top: 1vh;
+    cursor: auto;
+    font-family: "Inter", sans-serif;
+    text-align: center;
+  }
+  .buttonquiz {
+    background-image: linear-gradient(90deg, #ff4d4d, #f9cb28);
+    color: black;
+    padding: 1vw 2.5vw;
+    font-family: "Inter";
+    font-weight: 500;
+    border-radius: 0.3rem;
+    font-size: 3.5vw;
+    cursor: pointer;
+    border: none;
+  }
+
+  .buttonquiz:hover {
+    background: black;
+    color: white;
+    background: black;
+    color: white;
+    box-shadow: 0 0 5px 0 #fff, 0 0 10px 0 #f9cb28, 0 0 20px 0 #ff4d4d;
+  }
+
+  .icon {
+    background-color: rgb(121, 40, 202, 0.2);
+    border: 1px solid #7928ca;
+    color: rgb(245, 245, 245, 0.9);
+    padding: 0.4vw 0.8vw;
+    font-family: "Inter";
+    font-weight: 500;
+    border-radius: 0.2rem;
+    font-size: 4vw;
+    cursor: pointer;
+    margin-bottom: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 2px 0 #fff, 0 0 5px 0 #5e548e, 0 0 13px 0 #7928ca;
+  }
+
+  .icon:hover {
+    transform: scale(1.2);
+    box-shadow: 0 0 5px 0 #fff, 0 0 10px 0 #5e548e, 0 0 20px 0 #7928ca;
+  }
+}

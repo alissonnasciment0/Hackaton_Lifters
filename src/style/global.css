@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  align-items: center;
+}
+
+body {
+  background-image: url(../assets/background_2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+@media (max-width: 425px) {
+  body {
+    background-image: url(../assets/background_2.png);
+    background-size: cover;
+    width: 102vw;
+    height: 100vh;
+  }
+}
